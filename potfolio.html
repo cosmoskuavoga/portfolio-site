@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuavoga Cosmos Cudjoe Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Navbar -->
+    <header class="bg-white dark:bg-gray-800 shadow sticky top-0 z-50">
+      <nav class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-xl font-bold">Kuavoga Cosmos Cudjoe </h1>
+        <div class="flex space-x-4 items-center">
+          <ul class="hidden sm:flex space-x-6 text-sm font-semibold">
+            <li><a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400">About</a></li>
+            <li><a href="#skills" class="hover:text-blue-600 dark:hover:text-blue-400">Skills</a></li>
+            <li><a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400">Contact</a></li>
+            <li>
+              <a href="C:\Users\cosmo\Documents\Cosmos Kuavoga Resume Main copy.update (1).pdf" target="_blank" class="inline-block bg-blue-600 text-white px-2 py-1 rounded hover:bg-blue-700 transition">Resume</a>
+            </li>
+          </ul>
+          <button id="toggle-dark" class="text-sm px-3 py-1 border border-gray-400 dark:border-gray-200 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition">Toggle Dark</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-20 bg-blue-50 dark:bg-gray-800 transition-all duration-500">
+      <h2 class="text-4xl font-bold animate-fade-in-up">Data Analysis & Actuarial Enthusiast</h2>
+      <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">Transforming data into actionable insights</p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container mx-auto py-20 px-4 flex flex-col md:flex-row items-center gap-10">
+      <img src="C:\Users\cosmo\OneDrive\Pictures\Pictures\photo_1_2023-09-27_15-34-18.jpg" alt="Your Photo" class="rounded-full w-48 h-48 object-cover border-4 border-blue-300" />
+      <div>
+        <h3 class="text-2xl font-bold mb-4">About Me</h3>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          Hi, I’m Kuavoga Cosmos Cudjoe. A passionate data analysis with a strong interest in actuarial science. I love turning numbers into stories and making complex data understandable for everyone. I recently completed my degree in Actuarial Science and I’m building a solid portfolio of real-world projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="bg-gray-100 dark:bg-gray-800 py-20 transition-all">
+      <div class="container mx-auto px-4">
+        <h3 class="text-2xl font-bold text-center mb-8">Skills</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center text-gray-700 dark:text-gray-200">
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" alt="Excel" class="w-12 h-12 mb-2" />
+            <span>Excel</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="w-12 h-12 mb-2" />
+            <span>SQL</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI" class="w-12 h-12 mb-2" />
+            <span>Power BI</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-12 h-12 mb-2" />
+            <span>Python</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://img.icons8.com/fluency/48/broom.png" alt="Data Cleaning" class="w-12 h-12 mb-2" />
+            <span>Data Cleaning</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://img.icons8.com/color/48/null/combo-chart--v1.png" alt="Data Visualization" class="w-12 h-12 mb-2" />
+            <span>Data Visualization</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://img.icons8.com/fluency/48/null/accounting.png" alt="Analysis" class="w-12 h-12 mb-2" />
+            <span>Data Analysis</span>
+          </div>
+          <div class="bg-white dark:bg-gray-700 p-4 rounded shadow flex flex-col items-center">
+            <img src="https://img.icons8.com/color/48/null/microsoft-word-2019--v1.png" alt="Report Writing" class="w-12 h-12 mb-2" />
+            <span>Report Writing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container mx-auto py-20 px-4">
+      <h3 class="text-2xl font-bold text-center mb-8">Projects</h3>
+      <p class="text-center text-gray-600 dark:text-gray-300">Projects will be added soon. Stay tuned!</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-blue-100 dark:bg-gray-800 py-20">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-2xl font-bold mb-6">Contact</h3>
+        <p class="mb-2">📞 Phone: 0551687507</p>
+        <p class="mb-2">💼 LinkedIn: <a href="https://www.linkedin.com/in/cosmos-kuavoga-408004284" class="text-blue-700 dark:text-blue-400 underline">www.linkedin.com/in/cosmos-kuavoga-408004284</a></p>
+        <p class="mb-2">📧 Email:cosmoskuavoga62@gmail.com</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 text-center p-4 text-sm text-gray-500 dark:text-gray-400">
+      &copy; 2025 Kuavoga Cosmos Cudjoe. All rights reserved.
+    </footer>
+
+    <!-- Dark mode toggle script -->
+    <script>
+      const toggle = document.getElementById('toggle-dark');
+      toggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+      });
+    </script>
+  </body>
+</html>
